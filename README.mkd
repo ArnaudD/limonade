@@ -22,7 +22,7 @@ Limonade is easy to learn and provides everything that you can expect from a mod
 
 This document provides a quick but comprehensive guide of Limonade features.
 
-For more informations, you can see the [website](http://www.limonade-php.net/), 
+For more information , you can see the [website](http://www.limonade-php.net/), 
 [public API documentation](http://www.limonade-php.net/api/), [examples](http://www.limonade-php.net/examples.htm), and of course the [source code](http://github.com/sofadesign/limonade/blob/master/lib/limonade.php) which is still the best documentation.
 
 A [discussion group](http://groups.google.fr/group/limonade) is also available for more exchanges.
@@ -327,7 +327,7 @@ The current executed route is also available for `after` function.
 
 ## Configuration ##
 
-You can define a `configure` that will be executed when application is launched (at the begining of the `run` execution ).
+You can define a `configure` that will be executed when application is launched (at the beginning of the `run` execution ).
 You can define options inside it, a connection to a database ...
 
     function configure()
@@ -419,7 +419,7 @@ If you want to use url rewriting, you need to set explicitly the `base_uri` opti
 You can stop immediatly the execution of the application with the `halt` function. Errors will be handled by default Limonade error handlers or those you have defined.
 
     halt(NOT_FOUND);
-    halt("En error occured in my app...");
+    halt("En error occurred in my app...");
 
 ### Not Found ###
 
